@@ -1,0 +1,44 @@
+name: diet_x
+description: A personal diet tracking application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  get: ^4.6.5
+  shared_preferences: ^2.2.0
+  google_fonts: ^5.1.0
+  intl: ^0.18.1  # <-- Add this line
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/logo.png
+    - assets/images/intro1_screen.png
+    - assets/images/intro2_screen.png
+    - assets/images/intro3_screen.png
+    - assets/images/loading.png
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: DancingScript
+      fonts:
+        - asset: assets/fonts/DancingScript.ttf

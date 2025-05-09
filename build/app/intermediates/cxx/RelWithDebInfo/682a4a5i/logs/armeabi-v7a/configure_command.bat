@@ -1,0 +1,20 @@
+@echo off
+"C:\\Users\\thiru\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HD:\\Flutter\\flutter_windows_3.29.0-stable\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=21" ^
+  "-DANDROID_PLATFORM=android-21" ^
+  "-DANDROID_ABI=armeabi-v7a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a" ^
+  "-DANDROID_NDK=C:\\Users\\thiru\\AppData\\Local\\Android\\sdk\\ndk\\26.3.11579264" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\thiru\\AppData\\Local\\Android\\sdk\\ndk\\26.3.11579264" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\thiru\\AppData\\Local\\Android\\sdk\\ndk\\26.3.11579264\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\thiru\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\\flutterdiet\\diet_x\\build\\app\\intermediates\\cxx\\RelWithDebInfo\\682a4a5i\\obj\\armeabi-v7a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\\flutterdiet\\diet_x\\build\\app\\intermediates\\cxx\\RelWithDebInfo\\682a4a5i\\obj\\armeabi-v7a" ^
+  "-DCMAKE_BUILD_TYPE=RelWithDebInfo" ^
+  "-BD:\\flutterdiet\\diet_x\\android\\app\\.cxx\\RelWithDebInfo\\682a4a5i\\armeabi-v7a" ^
+  -GNinja ^
+  -Wno-dev ^
+  --no-warn-unused-cli

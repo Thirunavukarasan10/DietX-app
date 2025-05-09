@@ -1,0 +1,2 @@
+D:/flutterdiet/diet_x/android/app/.cxx/Debug/6j571o71/x86_64/CMakeFiles/edit_cache.dir
+D:/flutterdiet/diet_x/android/app/.cxx/Debug/6j571o71/x86_64/CMakeFiles/rebuild_cache.dir
